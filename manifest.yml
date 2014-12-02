@@ -1,0 +1,10 @@
+applications:
+- services:
+  - ClearDB MySQL Database-ci
+  disk_quota: 1024M
+  host: DemoApp20141111
+  name: DemoApp20141111
+  path: webStarterApp.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
